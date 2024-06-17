@@ -1,0 +1,15 @@
+
+.center {
+    text-align: center;
+}
+.center img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: rgba(63, 82, 110, 0.703);
+    color: azure;
+}
+h1 {
+    color: azure;
+}

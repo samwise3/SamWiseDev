@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css"> 
+  <meta charset="UTF-8">
+  <title>Resume</title>
+  
+  <h1>Sam's Resume</h1>
+  <hr>
+  <ul id="navigation"> <strong>Navigation</strong>
+    <li><a href="Home">Home</a></li>
+    <li><a href="Resume">Resume Page</a></li>
+    <li><a href="AboutMe">About Me</a></li>
+    <li><a href="ProjectPortfolio">Project Portfolio</a></li>
+  </ul>
+  <hr>
+</head>
+
+<body>
+<p>
+  <iframe src="https://1drv.ms/w/s!AqGEciBRh2Eugm1YOWFZ9X4JplAT?e=icdzAt" width="100%" height="600px" frameborder="0"></iframe>
+</p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Project Portfolio</title>
+        
+        <h1>Project Portfolio</h1>
+        <ul id="navigation"> <strong>Navigation</strong>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Resume">Resume Page</a></li>
+            <li><a href="AboutMe">About Me</a></li>
+            <li><a href="ProjectPortfolio">Project Portfolio</a></li>
+          </ul>
+        <hr>
+    </head>
+
+    <body>
+        <ul id="projects"><strong>Projects:</strong>
+            <li>Sulfuric Loading Database</li>
+            <li>Song Converter</li>
+            <li>Health and Fitness Tracker</li>
+            <li>Astronomy Guide</li>
+            <li>Fish Spotter's Almanac</li>
+        </ul>
+    </body>
+</html>

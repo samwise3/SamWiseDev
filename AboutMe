@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="styles.css"> 
+        <meta charset="UTF-8">
+        <title>About Me</title>
+        
+        <h1>About Me</h1>
+        <ul id="navigation"> <strong>Navigation</strong>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Resume">Resume Page</a></li>
+            <li><a href="AboutMe">About Me</a></li>
+            <li><a href="ProjectPortfolio">Project Portfolio</a></li>
+          </ul>
+        <hr>
+    </head>
+    <body>
+        <p>
+            <h3>Fun Facts:</h3>
+            <ul id="fun facts">
+                <li>born in San Diego, moved to Reno </li>
+                <li>took a gap year and interned on Capitol Hill and in Spain</li>
+                <li>Liverpool FC supporter</li>
+                <li>avid fan of the outdoors and love all things backpacking, hiking, and skiing</li>
+                <li>next on the travel bucket list: Jordan</li>
+                <li>love to learn about marine biology, clouds, and astronomy</li>
+                <li>recently completed a study abroad course on a sailboat in Greece, learning about
+                    sustainabilty</li>
+                <li>self-taught ceramicist</li>
+            </ul>
+            <br>
+
+            <h3>Education:</h3>
+            Going into my third year at the University of Virginia, I am a double major in 
+            computer science and economics. 
+            <br>
+
+            <h3>Future Goals:</h3>
+            Because I am passionate about sustainability and have a developing skillset in 
+            programming, I hope to work in the realm of sustainability software.
+            <br>
+        
+        </p>
+    </body>
+</html>
