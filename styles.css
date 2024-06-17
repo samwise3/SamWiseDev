@@ -13,3 +13,20 @@ body {
 h1 {
     color: azure;
 }
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /* Adjust width as needed */
+    height: 100%; /* Full height of viewport */
+    background-color: #333; /* Background color for the panel */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding inside the panel */
+  }
+  .navigation a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Block level for full clickable area */
+    padding: 10px; /* Padding inside each menu item */
+  }

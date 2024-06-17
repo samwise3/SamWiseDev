@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>Navigation</head>
+    <body>
+        <div class="navigation-panel">
+            <nav class="navigation">
+                <ul id="navigation"> <strong>Navigation</strong>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Resume">Resume Page</a></li>
+                    <li><a href="AboutMe">About Me</a></li>
+                    <li><a href="ProjectPortfolio">Project Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
