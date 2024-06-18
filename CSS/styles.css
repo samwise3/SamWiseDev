@@ -12,6 +12,8 @@
 .center img {
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
+    border-color: azure;
 }
 body {
     background-color: rgba(17, 19, 21, 0.795);
