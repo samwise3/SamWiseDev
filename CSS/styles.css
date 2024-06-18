@@ -4,10 +4,7 @@
     margin: 0;
     padding: 0;
 }
-head {
-    margin-left: 200px; /* Add margin to avoid overlapping with navigation */
-    padding: 20px; /* Optional: Add padding for better spacing */
-}
+
 .center {
     text-align: center;
     margin-left: 200px;
@@ -19,6 +16,7 @@ head {
 body {
     background-color: rgba(17, 19, 21, 0.795);
     color: azure;
+    margin-left: 200px;
 }
 h1 {
     color: azure;
