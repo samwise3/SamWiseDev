@@ -3,36 +3,61 @@
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     margin: 0;
     padding: 0;
+    font-family: 'arial';
 }
 
+.profile-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    max-width: 2000px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: grey;
+
+}
+
+.profile-info {
+    padding: 0 20px; /* Add horizontal padding for spacing */
+}
+
+.profile-info img {
+    flex: 25%;
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
 .center {
-    text-align: center;
-    margin-left: 200px;
+    text-align: left;
+    margin-bottom: 50px;
+
 }
 .center img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border-color: azure;
+    width: 1000px; 
+    height: 500px; 
+    display: block;
+}
+main, footer {
+    padding-left: 30px;
 }
 body {
     background-color: rgba(17, 19, 21, 0.795);
     color: azure;
-    margin-left: 200px;
+    margin-left: 180px;
+
 }
 h1 {
-    color: azure;
+    padding-top: 10px;
+    padding-left:20px;
 }
-
 #navigation {
     position: fixed;
     left: 0;
     top: 0;
     width: 180px; /* Adjust width as needed */
     height: 100%; /* Full height of viewport */
-    background-color: #747272; /* Background color for the panel */
+    background-color: #485b48; /* Background color for the panel */
     color: #fff; /* Text color */
     padding: 20px; /* Padding inside the panel */
+
   }
   .navigation a {
     color: #fff; /* Link text color */
@@ -40,3 +65,6 @@ h1 {
     display: block; /* Block level for full clickable area */
     padding: 10px; /* Padding inside each menu item */
   }
+footer {
+    margin-bottom: 50px;
+}
