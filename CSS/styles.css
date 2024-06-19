@@ -61,12 +61,24 @@ h1 {
   .navigation a {
     color: #fff; /* Link text color */
     text-decoration: none; /* Remove underline */
-    display: block; /* Block level for full clickable area */
-    padding: 10px; /* Padding inside each menu item */
+    display: block; /* Block level for full clickable area */    
   }
 footer {
     margin-bottom: 50px;
 }
 * a:visited {
     color: rgb(164, 193, 207);
+}
+#Articles {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+}
+#Articles .article{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #485b48;
 }
