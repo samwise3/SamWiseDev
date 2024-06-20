@@ -6,7 +6,7 @@
     font-family: 'Aptos';
 }
 body {
-    background-color: #111315;
+    background-color: #1f2124;
     color: #EAEAEA;
     margin-left: 180px;
     padding: 20px;
@@ -142,6 +142,7 @@ a {
 }
 #adviceForm label {
     margin-bottom: 8px;
+    color:#444
 }
 #adviceForm input {
     padding: 10px;
