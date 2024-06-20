@@ -120,26 +120,18 @@ footer {
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #444;
-    background-color: #222;
+    background-color: rgb(77, 77, 92);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-#adviceBoardContainer {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
 
 /* LINK COLOR */
 a {
     color: rgb(255, 255, 255); /* Change this to your desired color */
-    text-decoration: none; /* Optional: remove underline */
 }
 * a:visited {
-    color: rgb(101, 124, 135);
+    color: rgb(245, 115, 115);
 }
 
 /* ADVICE MESSAGE BOARD */
@@ -150,7 +142,7 @@ a {
 }
 #adviceForm label {
     margin-bottom: 8px;
-    color:#444
+    color:#ccc;
 }
 #adviceForm input {
     padding: 10px;
@@ -186,4 +178,12 @@ a {
     color:#1f2124;
     padding: 15px;
     margin-top: 15px;
+}
+#adviceBoardContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(77, 77, 92);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
