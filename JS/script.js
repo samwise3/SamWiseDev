@@ -1,0 +1,1 @@
+alert("Welcome to Sam's World!");
