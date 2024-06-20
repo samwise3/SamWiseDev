@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Form submitted");
     });
 
-    document.getElementById("myForm").appendChild(button);
+    document.getElementById("advice-box").appendChild(button);
 })
