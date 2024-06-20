@@ -1,4 +1,3 @@
-alert("Welcome to Sam's World!");
 
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.createElement("button");
