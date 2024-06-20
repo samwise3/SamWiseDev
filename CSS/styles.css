@@ -37,6 +37,7 @@ body {
 #navigation a:hoover {
     background-color: #485b48;
     color: #fff;
+    cursor: pointer;
     }
 #navigation #UVAlogo {
     left: 5px;
