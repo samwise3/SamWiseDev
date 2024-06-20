@@ -22,10 +22,16 @@
               </nav>
         </header>
         <main>
-            <form id="advice-box">
-                <label for="message">Advice you wish you were told earlier:</label>
-                <input type="text" id="message" name="message">
-            </form>
+            <div id="adviceBoardContainer">
+                <form id="adviceForm">
+                    <label for="advice">Advice you wish you were told earlier:</label>
+                    <input type="text" id="advice" name="advice" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="adviceBoard">
+
+            </div>
             <script src="JS/script.js"></script>
         </main>
     </body>

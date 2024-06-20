@@ -1,14 +1,21 @@
 
 document.addEventListener("DOMContentLoaded", function() {
-    var button = document.createElement("button");
-
-    button.innerHTML= "Submit";
-    button.type = "submit";
-    button.id = "submitButton";
-
-    button.addEventListener("click", function(event) {
+    var form = document.getElementById("adviceForm");
+    var adviceBoard = document.getElementById("adviceBoard");
+    
+    form.addEventListener("submit", function(event) {
         event.preventDefault();
-        alert("Form submitted");
+
+        var adviceInput = document.getElementById("advice");
+        var adviceText = adviceInput.ariaValueMax;
+
+        var adviceElement = document.createElement("p");
+        adviceElement.textContent = adviceText;
+
+        adviceBoard.appendChile(adviceElement);
+
+        adviceInput.value = "";
+    })
     });
 
     document.getElementById("advice-box").appendChild(button);
