@@ -87,6 +87,7 @@ body {
     display: block;
     margin: 0 auto; /* center the image */
     border-radius: 10px; /* rounded corners */
+    clip-path: inset(40px 0 45px 0);
 }
 .center #Rotunda-caption {
     text-align: center;
