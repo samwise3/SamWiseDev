@@ -17,6 +17,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
         adviceInput.value = "";
     });
-
-    document.getElementById("adviceBoard").appendChild(button);
 })
