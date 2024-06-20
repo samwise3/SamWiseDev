@@ -20,23 +20,28 @@ body {
     top: 0;
     width: 180px; 
     height: 100%; 
-    background-color: #333; 
+    background-color: rgb(77, 77, 92); 
     color: #fff; 
     padding: 30px 20px; 
     border-right: 2px solid #444;
   }
-  .navigation a {
+.navigation a {
     color: #EAEAEA; 
     text-decoration: none; 
-    display: block; 
+    display: block;
     padding: 10px 0;
     margin: 10px 0; /*margin between links*/
     margin-bottom: 1px solid #444;
     transition: color 0.3s, background-color 0.3s; /* transition for hoover events */
   }
-  navigation a:hoover {
+#navigation a:hoover {
     background-color: #485b48;
     color: #fff;
+    }
+#navigation #UVAlogo {
+    left: 5px;
+    height: 100px;
+    width: 150px;
   }
 
   /* PROFILE CONTAINER */
@@ -45,7 +50,7 @@ body {
     align-items: center; 
     max-width: 2000px; 
     margin: 50px auto; 
-    background-color: #333;
+    background-color: rgb(77, 77, 92);
     border-radius: 10px; /* rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* shadow */
 }
@@ -55,6 +60,7 @@ body {
 }
 .profile-info h1 {
     margin-bottom: 10px;
+    font-size: xx-large;
 }
 .profile-info img {
     flex: 25%;
@@ -80,6 +86,9 @@ body {
     display: block;
     margin: 0 auto; /* center the image */
     border-radius: 10px; /* rounded corners */
+}
+.center #Rotunda-caption {
+    text-align: center;
 }
 
 /* MAIN AND FOOTER */
@@ -126,7 +135,7 @@ footer {
 
 /* LINK COLOR */
 a {
-    color: lightslategray; /* Change this to your desired color */
+    color: rgb(255, 255, 255); /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
 }
 * a:visited {
