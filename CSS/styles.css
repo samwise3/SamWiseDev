@@ -33,7 +33,6 @@ body {
     margin: 10px 0; /*margin between links*/
     margin-bottom: 1px solid #444;
     transition: color 0.3s, background-color 0.3s; /* transition for hoover events */
-
   }
   navigation a:hoover {
     background-color: #485b48;
@@ -171,4 +170,11 @@ a {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+#adviceBoard .message {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    color:#1f2124;
+    padding: 15px;
+    margin-top: 15px;
 }

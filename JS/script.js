@@ -7,14 +7,18 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
 
         var adviceInput = document.getElementById("advice");
-        var adviceText = adviceInput.Value;
+        var adviceText = adviceInput.value;
 
         var adviceDiv = document.createElement("div");
         adviceDiv.className = "message";
         adviceDiv.textContent = adviceText;
+        console.log("Advice: ", adviceText);
 
         adviceBoard.appendChild(adviceDiv);
+        console.log("New advice added to the board.");
+        
+        adviceInput.value = ""; /*reset input box*/
 
-        adviceInput.value = "";
     });
+
 })
