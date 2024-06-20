@@ -125,9 +125,13 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* VISITED LINK COLOR */
+/* LINK COLOR */
+a {
+    color: lightslategray; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
 * a:visited {
-    color: rgb(164, 193, 207);
+    color: rgb(101, 124, 135);
 }
 
 /* ADVICE MESSAGE BOARD */
@@ -148,7 +152,7 @@ footer {
 #adviceForm button {
     padding: 10px;
     background-color: #28a745;
-    color: white;
+    color: #444;
     border: none;
     border-radius: 4px;
     cursor: pointer;
