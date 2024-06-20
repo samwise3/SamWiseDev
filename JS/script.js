@@ -7,16 +7,16 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
 
         var adviceInput = document.getElementById("advice");
-        var adviceText = adviceInput.ariaValueMax;
+        var adviceText = adviceInput.Value;
 
-        var adviceElement = document.createElement("p");
-        adviceElement.textContent = adviceText;
+        var adviceDiv = document.createElement("div");
+        adviceDiv.className = "message";
+        adviceDiv.textContent = adviceText;
 
-        adviceBoard.appendChile(adviceElement);
+        adviceBoard.appendChild(adviceDiv);
 
         adviceInput.value = "";
-    })
     });
 
-    document.getElementById("advice-box").appendChild(button);
+    document.getElementById("adviceBoard").appendChild(button);
 })
