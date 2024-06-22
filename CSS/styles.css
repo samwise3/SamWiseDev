@@ -112,8 +112,9 @@ footer {
 #resume {
     background-color: white;
     display: flex;
-    width: 800px;;
+    width: 750px;
     height: 800px;
+    align-items: center;
 }
 
 /* ARTICLES */
