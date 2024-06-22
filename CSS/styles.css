@@ -108,6 +108,14 @@ footer {
     padding-top: 20px;
 }
 
+/* RESUME */
+#resume {
+    background-color: white;
+    display: flex;
+    width: 800px;;
+    height: 800px;
+}
+
 /* ARTICLES */
 #Articles {
     line-height: 25px;
