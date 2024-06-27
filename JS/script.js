@@ -21,4 +21,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     });
 
-})
+    var dataForm = document.getElementById("dataEntryForm");
+
+    dataForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        var latitude = document.getElementById("latitude").value;
+        var longitude = document.getElementById("longitude").value;
+        var amount = document.getElementById("amount").value;
+        var userID = document.getElementById("userID").value;
+
+        
+    })
+
+});
+
