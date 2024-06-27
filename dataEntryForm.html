@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Entry Form</title>
+</head>
+<body>
+<form id="dataEntryForm">
+    <label for="latitude">Latitude:</label>
+    <input type="text" id="latitude" name="latitude"><br><br>
+    <label for="longitude">Longitude:</label>
+    <input type="text" id="longitude" name="longitude"><br><br>
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" name="amount"><br><br>
+    <label for="userID">User ID:</label>
+    <input type="text" id="userID" name="userID"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    document.getElementById('dataEntryForm').addEventListener('submit', async function(event) {
+        event.preventDefault();
+
+        const formData = {
+            latitude: document.getElementById('latitude').value,
+            longitude: document.getElementById('longitude').value,
+            amount: document.getElementById('amount').value,
+            userID: document.getElementById('userID').value
+        };
+
+        const response = await fetch('http://localhost:8080/api/entries', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+            alert('Data submitted successfully');
+        } else {
+            alert('Failed to submit data');
+        }
+    });
+</script>
+</body>
+</html>
