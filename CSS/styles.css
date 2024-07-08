@@ -44,6 +44,9 @@ body {
     height: 100px;
     width: 150px;
   }
+#navigation #navName {
+    text-align: center;
+}
 
   /* PROFILE CONTAINER */
 .profile-container {
@@ -82,7 +85,7 @@ body {
 
 }
 .center img {
-    width: 100%; 
+    width: 80%; 
     height: auto; 
     display: block;
     margin: 0 auto; /* center the image */
