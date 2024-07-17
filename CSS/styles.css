@@ -141,10 +141,10 @@ footer {
 
 /* LINK COLOR */
 a {
-    color: rgb(255, 255, 255); /* Change this to your desired color */
+    color: rgb(255, 255, 255);
 }
 * a:visited {
-    color: rgb(231, 101, 50);
+    color: rgb(35, 35, 36);
 }
 
 /* ADVICE MESSAGE BOARD */
