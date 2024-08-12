@@ -24,6 +24,7 @@ body {
     color: #fff; 
     padding: 30px 20px; 
     border-right: 2px solid #444;
+    overflow-y: auto;
   }
 .navigation a {
     color: #EAEAEA; 
@@ -209,4 +210,58 @@ a {
 }
 #resume-container{
     align-content: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    #navigation {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        border-right: none;
+        border-bottom: 2px solid #444;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .profile-info {
+        text-align: center;
+    }
+
+    .profile-info img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .center img {
+        width: 100%;
+    }
+
+    #resume {
+        width: 100%;
+        height: auto;
+    }
+
+    #Articles {
+        width: 100%;
+    }
+
+    #adviceBoardContainer {
+        width: 100%;
+    }
+    #navigation #UVAlogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
+        height: 100px;
+        width: 150px;
+    }
 }
