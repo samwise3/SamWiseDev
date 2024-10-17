@@ -133,7 +133,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-embed {
+#resume {
     height: 850px;
     max-width: auto;
 }
