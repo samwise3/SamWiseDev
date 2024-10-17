@@ -1,16 +1,21 @@
-
+/* General Reset and Styling */
 * {
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    font-family: system-ui;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 400;
 }
+
 body {
     background-color: #1f2124;
     color: #EAEAEA;
-    margin-left: 180px;
+    margin-left: 200px;
     padding: 20px;
-
+    line-height: 1.6;
+}
+a {
+    color: white
 }
 
 /* NAVIGATION BAR */
@@ -18,58 +23,60 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 180px; 
-    height: 100%; 
-    background-color: rgb(77, 77, 92); 
-    color: #fff; 
-    padding: 30px 20px; 
-    border-right: 2px solid #444;
-    overflow-y: auto;
-  }
-.navigation a {
-    color: #EAEAEA; 
-    text-decoration: none; 
-    display: block;
-    padding: 10px 0;
-    margin: 10px 0; /*margin between links*/
-    margin-bottom: 1px solid #444;
-    transition: color 0.3s, background-color 0.3s; /* transition for hoover events */
-  }
-#navigation a:hoover {
-    background-color: #485b48;
+    width: 200px; 
+    height: 100%;
+    background-color: #2a2d33;
     color: #fff;
-    cursor: pointer;
-    }
+    padding: 40px 20px;
+    border-right: 1px solid #333;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+.navigation a {
+    color: #EAEAEA;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #444;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navigation a:hover {
+    background-color: #3a3f47;
+    color: #fff;
+}
 #navigation #UVAlogo {
-    left: 5px;
-    height: 100px;
-    width: 150px;
-  }
+    height: 120px;
+    width: 180px;
+    display: block;
+    margin: 0 auto 30px;
+}
 #navigation #navName {
     text-align: center;
+    font-weight: 600;
 }
 
-  /* PROFILE CONTAINER */
+/* PROFILE CONTAINER */
 .profile-container {
     display: flex; 
     align-items: center; 
-    max-width: 2000px; 
-    margin: 50px auto; 
-    background-color: rgb(77, 77, 92);
-    border-radius: 10px; /* rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* shadow */
+    max-width: 1400px; 
+    margin: 40px auto; 
+    background-color: #3a3f47;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
 }
 .profile-info {
     padding: 0 20px;
-    color: #EAEAEA; 
+    color: #EAEAEA;
 }
 .profile-info h1 {
     margin-bottom: 10px;
-    font-size: xx-large;
+    font-size: 2.5rem;
+    font-weight: 500;
 }
 .profile-info img {
-    flex: 25%;
-    flex-shrink: 0; /* prevent profile picture from shrinking */
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -77,35 +84,33 @@ body {
     margin-right: 20px;
 }
 
-/* CENTER STYLE CONTENT */
+/* CONTENT STYLING */
 .center {
-    text-align: left;
-    margin-bottom: 50px;
     max-width: 1000px; 
-    margin: 50px auto; /* center content */
-
+    margin: 50px auto; 
+    text-align: left;
+    padding: 20px;
 }
 .center img {
-    width: 80%; 
+    width: 100%; 
     height: auto; 
     display: block;
-    margin: 0 auto; /* center the image */
-    clip-path: inset(40px 0 45px 0);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .center #Rotunda-caption {
     text-align: center;
+    font-style: italic;
+    color: #bbb;
 }
 
 /* MAIN AND FOOTER */
 main, footer {
-    padding-left: 20px;
-}
-h1 {
-    padding-top: 10px;
-    padding-left:20px;
+    padding: 20px;
 }
 footer {
-    margin-bottom: 50px;
+    margin-top: 50px;
     text-align: center;
     color: #EAEAEA;
     border-top: 1px solid #444;
@@ -114,103 +119,62 @@ footer {
 
 /* RESUME */
 #resume {
-    background-color: white;
-    display: flex;
-    width: 750px;
-    height: 800px;
-    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* ARTICLES */
 #Articles {
-    line-height: 25px;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 250px;
-    margin: 0 auto;
-}
-#Articles .article{
-    margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #444;
-    background-color: rgb(77, 77, 92);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-
-/* LINK COLOR */
-a {
-    color: rgb(255, 255, 255);
-}
-* a:visited {
-    color: rgb(255, 255, 255);
-}
-
-/* ADVICE MESSAGE BOARD */
-#adviceForm {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-#adviceForm label {
-    margin-bottom: 8px;
-    color:#ccc;
-}
-#adviceForm input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-#adviceForm button {
-    padding: 10px;
-    background-color: #28a745;
-    color: #444;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-#adviceForm button:hoover {
-    background-color: #218838;
-}
-#adviceBoard {
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
-#adviceBoard p {
-    padding: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-#adviceBoard .message {
-    background-color: #EAEAEA;
-    border-radius: 10px;
-    color:#1f2124;
-    padding: 15px;
-    margin-top: 15px;
-}
-#adviceBoardContainer {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
+}
+#Articles .article {
+    margin-bottom: 20px;
     padding: 20px;
-    background-color: rgb(77, 77, 92);
+    background-color: #3a3f47;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+#Articles .article:hover {
+    transform: scale(1.02);
+}
+
+/* ADVICE FORM */
+#adviceForm input, #adviceForm button {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+#adviceForm button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+#adviceForm button:hover {
+    background-color: #218838;
+}
+
+/* ADVICE BOARD */
+#adviceBoard p {
+    padding: 15px;
+    background-color: #f8f9fa;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
 }
-.social-icon {
-    flex: 0 0 150px; /* flex-grow: 0, flex-shrink: 0, flex-basis: 150px */
-    height: 150px;
-    width: 150px;
-    border: 4px solid #EAEAEA;
-    margin-right: 20px;
-}
-#resume-container{
-    align-content: center;
-}
+
+/* RESPONSIVE DESIGN */
 @media only screen and (max-width: 600px) {
     body {
         margin-left: 0;
@@ -218,25 +182,19 @@ a {
     }
 
     #navigation {
-        position: static;
         width: 100%;
         height: auto;
-        padding: 15px;
+        padding: 20px;
         border-right: none;
-        border-bottom: 2px solid #444;
+        border-bottom: 1px solid #333;
     }
 
     .profile-container {
         flex-direction: column;
-        margin: 20px auto;
-    }
-
-    .profile-info {
-        text-align: center;
+        margin: 20px 0;
     }
 
     .profile-info img {
-        margin-right: 0;
         margin-bottom: 20px;
     }
 
@@ -244,24 +202,7 @@ a {
         width: 100%;
     }
 
-    #resume {
-        width: 100%;
-        height: auto;
-    }
-
     #Articles {
         width: 100%;
-    }
-
-    #adviceBoardContainer {
-        width: 100%;
-    }
-    #navigation #UVAlogo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        left: auto;
-        height: 100px;
-        width: 150px;
     }
 }
