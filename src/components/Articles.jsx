@@ -32,8 +32,8 @@ function Articles() {
             key={index} 
             href={article.url} 
             className="article-card"
-            target="_blank"  // Opens in new tab
-            rel="noopener noreferrer"  // Security best practice
+            target="_blank" 
+            rel="noopener noreferrer" 
           >
             <article>
               <h2>{article.title}</h2>

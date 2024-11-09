@@ -10,7 +10,7 @@ function Home() {
           <div className="profile-info">
             <img 
               id="profile" 
-              src="images/profile.jpg" 
+              src="/images/profile.jpg" 
               alt="Profile Picture" 
             />
           </div>
