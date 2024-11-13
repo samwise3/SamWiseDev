@@ -24,10 +24,17 @@ function Home() {
       <main>
         <div className="center">
           <p>
-            Hi! My name is Sam an I am a third year at the University of Virginia double majoring in computer science and 
-            Economics. I love to travel, play soccer, ski, and spend time outdoors. Passionate about sustainability
-            and the future of renewable energy, I hope to utilize my background in software to continue the progress
-            that has been made over the recent years. I expect to graduate in May 2026.
+          Hi! I'm Sam, a third-year student at the University of Virginia pursuing a double major in Computer Science and Economics. 
+          This interdisciplinary background has given me a unique perspective on how technology can drive meaningful change. I'm 
+          particularly interested in sustainability and renewable energy, having studied sustainable development through UVA's Odyssey 
+          Through the Anthropocene program and analyzed renewable energy companies like NextEra Energy.
+
+          Outside of academics, I enjoy soccer, skiing, and spending time outdoors. These interests have naturally reinforced my commitment 
+          to environmental preservation and sustainable technology. As I work toward my graduation in May 2026, I'm focused on developing my 
+          software engineering skills while exploring ways to contribute to renewable energy advancement.
+
+          Through my involvement with the Google Developers Club and work as a Project Consultant at Enactus, I continue to build both my 
+          technical expertise and practical experience in implementing sustainable solutions and collaborating on diverse teams.
           </p>
           <br />
           <ul id="projects">
