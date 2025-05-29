@@ -55,8 +55,8 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              </a>
               Forensic Regex Escape Room
+              </a>
             </li>
           </ul>
         </div>
