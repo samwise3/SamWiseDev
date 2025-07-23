@@ -1,6 +1,6 @@
-import Navigation from './Navigation';
-import Footer from './Footer';
-import '../CSS/styles.css';
+import Navigation from '../components/ui/Navigation';
+import Footer from '../components/ui/Footer';
+import '../styles/styles.css';
 
 function Home() {
   return (
@@ -40,6 +40,7 @@ function Home() {
           <br />
           <ul id="projects">
             <strong>Projects:</strong>
+            {/*
             <li>
               <a 
                 href="https://sulfurdioxidedatabase.netlify.app/" 
@@ -49,6 +50,7 @@ function Home() {
                 Stratospheric Sulfur Dioxide Database
               </a>
             </li>
+            */}
             <li>
               <a
                 href="https://digitalforensicsregex.netlify.app/#"
