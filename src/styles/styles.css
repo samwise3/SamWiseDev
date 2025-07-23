@@ -248,3 +248,77 @@ main {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
+
+/* Custom Cards */
+.custom-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  color: #000;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 2rem 0;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  max-width: 800px;
+  width: 100%;
+}
+
+.custom-card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+
+.custom-card-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+  background: #f4f4f4;
+}
+
+.custom-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.custom-card-desc {
+  font-size: 1rem;
+  color: #222;
+}
+
+/* Stack cards vertically */
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 60vh;
+  width: 100vw;
+  padding: 2rem 0;
+}
+.cards-list {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .custom-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .custom-card-img {
+    margin: 0 0 1rem 0;
+  }
+}
