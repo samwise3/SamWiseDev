@@ -1,23 +1,13 @@
 import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
+import Header from '../components/ui/Header';
 import '../styles/styles.css';
 
 function Home() {
   return (
     <div className="home-container">
       <header>
-        <div className="profile-container">
-          <div className="profile-info">
-            <img 
-              id="profile" 
-              src="/images/profile.jpg" 
-              alt="Profile Picture" 
-            />
-          </div>
-          <div className="profile-info">
-            <h1>Sam Wise Brooks</h1>
-          </div>
-        </div>
+        <Header />
         <Navigation />
       </header>
 
