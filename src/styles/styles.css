@@ -68,6 +68,16 @@ header {
   color: #007bff;
 }
 
+.navbar a.active {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #222;           /* Dark grey */
+  border-bottom: none;   /* Remove underline */
+  background: none;      /* Remove background highlight */
+  border-radius: 0;      /* Remove border radius */
+  padding-bottom: 0;     /* Remove extra padding */
+}
+
 /* Main content */
 main {
   flex: 1;
@@ -321,4 +331,53 @@ main {
   .custom-card-img {
     margin: 0 0 1rem 0;
   }
+}
+
+.card-tags {
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-tag {
+  background: #e9ecef;
+  color: #333;
+  border-radius: 12px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #ccc;
+}
+
+.card-toggle-btn {
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  color: #222;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  transition: color 0.2s;
+}
+
+.card-toggle-btn:hover {
+  color: #007bff;
+}
+
+.card-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.card-long-desc {
+  margin-top: 0.5rem;
+  background: #fafbfc;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #222;
+  border: 1px solid #eee;
+  font-size: 1rem;
 }

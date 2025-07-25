@@ -2,6 +2,7 @@ import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Card from '../components/common/Card';
 import '../styles/styles.css';
+import Header from '../components/ui/Header';
 
 function Articles() {
   const articles = [
@@ -24,9 +25,8 @@ function Articles() {
   return (
     <div className="page-container">
       <header>
-        <h1>Articles</h1>
+        <Header/>
         <Navigation />
-        <hr />
       </header>
 
       <div className="cards-list">
