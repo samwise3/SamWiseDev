@@ -9,7 +9,9 @@ const projects = [
     {
         title: 'Regex Escape Room',
         description: 'A fun and interactive way to learn about regular expressions through a virtual escape room.',
-        longDescription: 'This project uses React, TypeScript, and Netlify. It features multiple puzzles and tracks user progress.',
+        longDescription: 'This project uses React, TypeScript, and Netlify. It features multiple puzzles to give users practice with regex expression for data forensics.' +
+        ' Each  puzzle requires users to apply the correct regex search query to successfully determine the scope of the data breach. It was developed with React and uses Netlify for CI/CD.' +
+        ' To populate the puzzles and relevant mocked data, I utilize artificial intelligence to generate imitation data sets',
         src: 'https://digitalforensicsregex.netlify.app/\#',
         imgsrc:'',
         alt: 'Regex Escape Room',

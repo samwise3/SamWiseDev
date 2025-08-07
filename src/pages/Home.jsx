@@ -2,6 +2,7 @@ import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
 import '../styles/styles.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -26,29 +27,8 @@ function Home() {
           technical expertise and practical experience in implementing sustainable solutions and collaborating on diverse teams. My time as a member
           and mentor in Women in Computer Science has also provided impactful opportunities for growth and connection within the field.</p>
           <br />
-          <ul id="projects">
-            <strong>Projects:</strong>
-            {/*
-            <li>
-              <a 
-                href="https://sulfurdioxidedatabase.netlify.app/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Stratospheric Sulfur Dioxide Database
-              </a>
-            </li>
-            */}
-            <li>
-              <a
-                href="https://digitalforensicsregex.netlify.app/#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Digital Forensics Regex Escape Room
-              </a>
-            </li>
-          </ul>
+          <Link className="custom-link" to="/projects">
+            View my Projects</Link>
         </div>
       </main>
 
