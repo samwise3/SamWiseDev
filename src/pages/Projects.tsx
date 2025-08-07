@@ -16,8 +16,21 @@ const projects = [
         imgsrc:'',
         alt: 'Regex Escape Room',
         tags: ["React", "Regular Expressions", "Netlify"]
+    },
+    {
+        title: "Hackathon Project: API-Integrated Energy Grid Dashboard",
+        description: "A hackathon project that theoretically displays real-time energy consumption metrics based on real-time energy grid distribution data.",
+        longDescription: "This project was developed using mocked API response data which was fed to our front-end React application. The dashboard displays metrics across various office locations," + 
+        " to identify high-consuming areas and suggest optimizations. The project uses the variability of energy resources throughout the day to show energy consumption trends over time and location.",
+        src: '',
+        imgsrc:'../../public/images/hackathon-screenshot.png',
+        alt: 'Hackathon Project',
+        tags: ["React", "API Integration", "Data Visualization"]
+
     }
 ]
+
+
 function Projects() {
 
     return (

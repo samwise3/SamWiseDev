@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 interface CardProps {
     title: string;
-    description?: string;
-    longDescription?: string;
-    src: string;
+    description: string;
+    longDescription: string;
+    src?: string;
     imgsrc?: string;
     alt?: string;
     tags?: string[];
@@ -23,9 +23,6 @@ function Card({
 
     return (
         <div className="custom-card">
-            {imgsrc && (
-                <img className="custom-card-img" src={imgsrc} alt={alt || title} />
-            )}
             <div className="custom-card-content">
                 <h3 className="custom-card-title">
                     <a href={src} target="_blank" rel="noopener noreferrer">{title}</a>
@@ -38,6 +35,9 @@ function Card({
                     </div>
                 )}
                 {description && <p className="custom-card-desc">{description}</p>}
+                {imgsrc && (
+                    <img className="custom-card-img" src={imgsrc} alt={alt || title} style={{width: '100%', height: 'auto', margin: '25px 0 25px 0'}}/>
+                )}
                 <div className="card-toggle-row">
                     {longDescription && (
                         <>
@@ -46,7 +46,8 @@ function Card({
                                 onClick={() => setExpanded(e => !e)}
                                 aria-expanded={expanded}
                                 aria-label={expanded ? "Hide details" : "Show details"}
-                            >
+                                style={{ font: 'inherit'}}
+                            >Expand 
                                 <span
                                     style={{
                                         display: 'inline-block',
@@ -54,7 +55,7 @@ function Card({
                                         transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)'
                                     }}
                                 >
-                                    ▼
+                                   ▼
                                 </span>
                             </button>
                         </>
