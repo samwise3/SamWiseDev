@@ -23,7 +23,7 @@ const projects = [
         longDescription: "This project was developed using mocked API response data which was fed to our front-end React application. The dashboard displays metrics across various office locations," + 
         " to identify high-consuming areas and suggest optimizations. The project uses the variability of energy resources throughout the day to show energy consumption trends over time and location.",
         src: '',
-        imgsrc:'../../public/images/hackathon-screenshot.png',
+        imgsrc: '../../public/images/hackathon-screenshot.png',
         alt: 'Hackathon Project',
         tags: ["React", "API Integration", "Data Visualization"]
 
