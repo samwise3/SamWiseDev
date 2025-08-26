@@ -12,4 +12,5 @@ export const routes = [
   { path: '/resume', name: 'Resume', element: React.createElement(Resume) },
   { path: '/articles', name: 'Articles', element: React.createElement(Articles) },
   { path: '/projects', name: 'Projects', element: React.createElement(Projects) },
+  // add individual article routes
 ];
