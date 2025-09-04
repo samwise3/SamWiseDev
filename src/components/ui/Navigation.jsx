@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../../styles/styles.css';
-import { routes } from '../../routes';
+import { navBarRoutes } from '../../routes';
 
 function Navigation() {
   const location = useLocation();
@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <nav className="navbar">
       <ul>
-        {routes.map(route => (
+        {navBarRoutes.map(route => (
           <li key={route.path}>
             <Link
               to={route.path}

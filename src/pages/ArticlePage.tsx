@@ -25,7 +25,6 @@ export function Article(ArticlePageParams): React.ReactElement {
         </div>
 
     )
-
 }
 
 export default Article;
