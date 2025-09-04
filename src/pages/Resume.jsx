@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
 import '../styles/styles.css';
@@ -21,7 +20,6 @@ function Resume() {
     <div>
       <header>
         <Header/>
-        <Navigation />
         <hr />
       </header>
       <div className="markdown-body">

@@ -1,4 +1,3 @@
-import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Card from '../components/common/Card';
 import '../styles/styles.css';
@@ -41,7 +40,6 @@ function Articles() {
     <div className="page-container">
       <header>
         <Header/>
-        <Navigation />
       </header>
       <main>
         <div className="center">

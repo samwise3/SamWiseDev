@@ -1,4 +1,3 @@
-import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
 import '../styles/styles.css';
@@ -9,7 +8,6 @@ function Home() {
     <div className="home-container">
       <header>
         <Header />
-        <Navigation />
       </header>
 
       <main>

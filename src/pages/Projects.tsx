@@ -1,5 +1,4 @@
 import Header from "../components/ui/Header";
-import Navigation from "../components/ui/Navigation";
 import Footer from "../components/ui/Footer"; 
 import Card from "../components/common/Card";
 import '../styles/styles.css';  
@@ -37,7 +36,6 @@ function Projects() {
         <>
         <header>
             <Header/>
-            <Navigation />
         </header>
         <div className="cards-list">
             {projects.map((project, index) => (

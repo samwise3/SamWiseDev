@@ -1,5 +1,4 @@
 import '../styles/styles.css';
-import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
 import ReactMarkdown from 'react-markdown';
@@ -32,7 +31,6 @@ const [markdown, setMarkdown] = React.useState<string>('');
         <div className='article-page-content'>
             <header>
                 <Header/>
-                <Navigation />
             </header>
             <h1 className="article-title">{ArticlePageParams.title}</h1>
             {ArticlePageParams.url && 

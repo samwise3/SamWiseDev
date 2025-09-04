@@ -156,6 +156,34 @@ main {
   color: #007bff;
 }
 
+/* Header Banner */
+.header-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3vw;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-left h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3a3a5a;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .profile-container {
@@ -174,6 +202,20 @@ main {
 
   .articles-container {
     padding: 1rem;
+  }
+
+  .header-banner {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2vw;
+  }
+  .header-left {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .header-right {
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -469,7 +511,13 @@ main {
     color: #3a3a5a;
     text-align: center;
 }
-
+.markdown-body h4 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: 100;
+    color: #3a3a5a;
+    text-align: center;
+}
 .markdown-body ul, .markdown-body ol {
     margin-left: 2em;
     margin-bottom: 1em;

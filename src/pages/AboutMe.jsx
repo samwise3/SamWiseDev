@@ -1,4 +1,3 @@
-import Navigation from '../components/ui/Navigation';
 import Footer from '../components/ui/Footer';
 import '../styles/styles.css';
 
@@ -7,7 +6,6 @@ function AboutMe() {
     <div className="page-container">
       <header>
         <h1>About Me</h1>
-        <Navigation />
         <hr />
       </header>
 
