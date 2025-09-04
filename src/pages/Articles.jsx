@@ -4,12 +4,12 @@ import Card from '../components/common/Card';
 import '../styles/styles.css';
 import Header from '../components/ui/Header';
 import { Link } from 'react-router-dom';
-  
+
 export const articles = [
     {
       title: "Reformation During the Resurgence of Industrial Policy Under the Biden Administration",
       slug: 'industrial-policy',
-      src: "/assets/articles/IndustrialPolicy.pdf",
+      src: "/assets/articles/IndustrialPolicy.md",
       url: "https://virginiapolitics.org/online/2024/4/15/reformation-during-the-resurgence-of-industrial-policy-under-the-biden-administration?rq=green%20energy%20",
       date: "April 15, 2024",
       image: "/images/biden.jpg",
@@ -18,7 +18,7 @@ export const articles = [
     {
       title: "Shedding Light on the Dark Side of Congressional Stock Trading",
       slug: 'congressional-stock-trading',
-      src: "/assets/articles/StockTrading.pdf",
+      src: "/assets/articles/StockTrading.md",
       url: "https://virginiapolitics.org/online/2023/5/15/shedding-light-on-the-dark-side-of-congressional-stock-trading?rq=brooks",
       date: "May 15, 2023",
       image: "/images/congress.png",
@@ -27,15 +27,16 @@ export const articles = [
     {
       title: "Green Energy Means a Greener Economy",
       slug: 'green-economy',
-      src: "/assets/articles/GreenEconomy.pdf",
+      src: "/assets/articles/GreenEconomy.md",
       //url: "https://virginiapolitics.org/online/2023/5/15/shedding-light-on-the-dark-side-of-congressional-stock-trading?rq=brooks",
       //date: "May 15, 2023",
-      //image: "/images/congress.png",
+      image: "/images/green-energy.jpg",
       description: "How investing in green technology can lead to economic rewards."
     }
   ];
 
 function Articles() {
+
   return (
     <div className="page-container">
       <header>

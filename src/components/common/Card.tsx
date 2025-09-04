@@ -35,9 +35,6 @@ function Card({
                     </div>
                 )}
                 {description && <p className="custom-card-desc">{description}</p>}
-                {imgsrc && (
-                    <img className="custom-card-img" src={imgsrc} alt={alt || title} style={{width: '100%', height: 'auto', margin: '25px 0 25px 0'}}/>
-                )}
                 <div className="card-toggle-row">
                     {longDescription && (
                         <>
@@ -67,6 +64,13 @@ function Card({
                     </div>
                 )}
             </div>
+            {imgsrc && (
+                <img
+                    className="custom-card-img"
+                    src={imgsrc}
+                    alt={alt || title}
+                />
+            )}
         </div>
     );
 }

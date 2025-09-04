@@ -1,0 +1,128 @@
+## How the argument around climate change investment needs an economic reframe
+
+_The Biden administration’s new Bipartisan Infrastructure Bill is a $550 billion initiative to address climate change
+by focusing on improving current infrastructure. Although critics argue that the bill costs are unfeasible and
+necessary, what would happen if we truly considered renewable energy in our initiatives to mitigate climate
+change?_
+
+Last year, the Biden administration passed the Bipartisan Infrastructure Bill—landmark legislation to
+mitigate the climate crisis. The $550 billion price tag is set to address crumbling infrastructure, increase access to
+broadband internet and clean water, develop a network of electric vehicle charging stations, and invest in the energy
+transition. The legislation intends to spur innovation in renewable energy and clean technology, harden our
+infrastructure, and improve our climate resiliency against increasingly severe weather conditions. Subsidies, tax
+benefits, and investment in solar, wind, hydro, and nuclear power are also included to increase our energy access,
+efficiency, and production output through lower consumer costs.
+
+Climate change deniers and proponents of the oil and gas industry argue that the costs of this legislation
+are neither feasible nor necessary. Unsound rhetoric like that is pervasive and dangerous because it delays the
+implementation of renewables and magnifies the harms of a wetter, warmer climate.
+
+Research supports the idea that anthropogenic warming— or, the heating of our climate driven by human
+activity— exists and is a critical component to understanding the climate crisis. However, even when pushing aside
+that socially contentious— but scientifically sound— notion, moving towards renewable energy would still be the
+right choice to make. As technology continues to develop in this sector, the payoffs are undeniable. Clean energy is
+proving itself to be more efficient and less expensive to maintain and operate— the short story: it is fiscally
+advantageous to go green. Showing that renewables can boost people’s finances and lifestyles might make them feel
+more inclined to support renewables. Instead of viewing the costs of renewables and climate resilience as flat costs,
+people should view them as investments. While investments always come with risks, science and data are on the
+side of action and disruption of our current systems rather than complacency with them. Our current global
+trajectory of energy usage and overall consumption patterns lead us to an inhospitable, hazardous world. So, action
+
+
+really is our only option. Increased capital allocated towards changing the systems in place will lead to greater
+renewable generation capacity, better energy storage systems, increased grid resiliency, and improved energy
+efficiency, especially compared to fossil fuels.
+
+But what is energy efficiency? Our world is supplied with a nearly infinite amount of primary energy from
+the sun’s radiation, and this energy is converted into a variety of forms. Through photosynthesis, solar radiation
+feeds plant life and biomass, which break down and eventually form coal and oil. Heat from the sun warms our air
+causing currents to flow throughout the atmosphere. Inflows of primary energy must be converted into useful
+energy, which is the energy that can actually be put to work, like electricity. A portion of useful energy is lost with
+each conversion which leads to decreased energy efficiency for resources with more conversions required.
+
+Fossil fuels have a lengthier process of becoming usable energy. For example, plant and animal matter
+must undergo centuries of heat and pressure before turning into crude oil. It is extracted in its natural form,
+transported for refinement, and then transported again, likely to a consumer location like a gas station. People pump
+that gas into their car where it is combusted and the byproduct of CO2 is released. This process takes multiple steps
+of energy conversion, meaning that overall usable energy is lost, requiring extensive transportation capacity.
+Ultimately, it leaves us with CO2 saturating our atmosphere and our oceans, and reliant on a fixed and diminishing
+resource. In contrast, solar panels are made of highly abundant silicon wafers, primary energy is absorbed directly,
+and a single conversion to usable electricity occurs. The energy lost is better described as “surplus energy.” It is
+excess solar energy that our current technological capacity cannot harness to the full extent. As investments such as
+the infrastructure bill fund the development of renewable energy systems, the U.S. can harness and deploy more of
+this energy and increase the capacity of our energy capture systems. Renewable energy resources are often more
+energy efficient from the start, and these further investments in renewable development and infrastructure will help
+consumers see an even bigger bang for their buck when compared to fossil fuels.
+
+This is monumental: by updating and improving our renewable systems, U.S. citizens can save money on
+our energy use. Solar, although an initial investment, tends to pay off in six to ten years. This estimate is most likely
+lower when considering that fossil fuel prices are trending upward and renewable costs are falling. Over the last
+decade alone, prices for solar installations have dropped 50%. Another way consumers can maximize energy savings
+through utilizing renewables is by switching to electric vehicles. While electric vehicles are still broadly more
+expensive, tax incentives can help reduce the cost to consumers and continual development and competition in the
+sector continues to drive the market price downward. The Michigan Transportation Institute conducted research that
+showed the average annual cost of an electric vehicle is roughly $485 versus $1,117 for a traditional combustion
+engine. Additionally, electric vehicle maintenance costs are often cheaper since the engine system is simpler and
+usually operates with higher energy efficiency.
+
+Moreover, making the switch to renewables is increasingly cost-effective as costs to operate fossil fuel
+power plants rise. It is cheaper to expand solar and wind power capacity in the U.S. than to reinvest in most of our
+coal-powered plants, as coal becomes an increasingly stranded resource— a resource whose economic viability or
+extraction capacity grows limited. The New York Independent Systems Operator conducted a study that “showed
+that adding 8 GW of wind capacity in New York State would save $1.3 billion in power plant operation costs per
+year, roughly $65 per person served.” Energy costs constitute some of the biggest expenses to American consumers,
+so any cost reduction is a welcome one to lessen their energy burden.
+
+Climate resiliency is another opportunity for savings. Damages from severe weather events have cost the
+U.S. approximately $2.6 trillion since 1980. In 2022, the U.S. had 18 weather events that cost at least $1 billion.
+Hardening our infrastructure can prevent such extensive damage and save money, as well as lives. It is estimated
+that every dollar invested in climate resiliency saves six—clearly a great return on investment by any standard.
+Renewable grids are also considered more reliable in the face of severe weather, especially when coupled with
+
+
+energy storage technology and microgrid systems. As rising temperatures lead to more severe storms and weather
+events—both in severity and frequency—the U.S. economy can save big by investing in climate resiliency and
+energy grid upgrades.
+
+Energy independence is another advantage to developing renewable production and capacity since our
+economy currently relies on Middle Eastern oil. That has left us vulnerable to energy price spikes caused by
+Russia’s invasion of Ukraine and the Organization of the Petroleum Exporting Countries’ (OPEC) slash in
+production. If the U.S. energy sector can produce at scale domestically, this would limit the chokehold from foreign
+oil while expanding our job market. A self-reliant energy sector would help the U.S. avoid another oil price war with
+Saudi Arabia like the one in 2014 where a competitive spike in production levels caused oil prices to plummet.
+While this was welcomed by consumers, it ultimately harmed our oil and gas industry and exposed our vulnerability
+to exploitation by Middle Eastern oil powers. With many dominant actors, like China, working to develop and scale
+their renewable capacity and evolve their clean technology, the U.S. would be strategic to be a leader and pioneer in
+the field. Increasing our energy capacity would help secure our position as an industry leader and help solidify
+independence from foreign powers wealthy in oil.
+
+By growing our energy capacity and implementing new technologies, a collaboration of industries will be
+critical; vocational demands will span a broad variety of sectors and require unique skill sets and innovative
+thinking. Renewables can help the U.S. economy diversify, grow, and compete. Implementing new clean technology
+can act as a growth catalyst in many forms. As manufacturing for new products increases alongside investments in
+research and development teams, so will the need for technical experts in the fields of wind, solar, electrification,
+and more. According to a report by the Department of Energy, the energy sector had a larger growth rate than the
+overall employment rate. Job loss will occur in the fossil fuel sector— something that government institutions will
+need to prepare for by providing support to individuals and communities to minimize damage. The complexity of
+shifting away from fossil fuels will require a holistic approach to ensure we have a just energy transition. If there is
+adequate support and investment, the U.S. can construct a solid foundation of renewable energy resources, systems,
+and infrastructure which can help its economy flourish and eventually dominate in the sector, achieving energy
+independence, thereby supporting Americans through domestic job growth by bringing back jobs from overseas.
+
+The green transition will not be costless or easy because revamping our energy systems and infrastructure
+will take time and effort, but the payout is there. Implementation of new systems that will take time to streamline
+and require support and retraining as the job market shifts to reflect our changing market. If taxpayers begin to view
+funding like the Bipartisan Infrastructure Bill as investments rather than flat costs, then there is a more visible
+opportunity for profit, savings, and growth. The national economy can benefit as a whole, and individuals can see
+the rewards on their level too. As prices for energy drop, and resources themself become more reliable, the energy
+burden that strains many U.S. households can start to ease, and health benefits can be gained from a cleaner society.
+This notion needs to be pushed more broadly and aggressively to the public to help gain momentum for the
+transition. Those who view renewables as unsavory and simply a means to push the “green agenda” are unlikely to
+be motivated to join in the energy transition by showing them another picture of a malnourished polar bear. They
+might, however, be convinced to hop on board if there is a chance to put more money in their pockets. Increased
+GDP and employment, energy independence, and health benefits would be icing on the cake. By reframing the
+argument from an economic standpoint, the green movement stands to gain momentum and would benefit from
+collaboration and diversified innovation as more people support the transition. After all, a greener energy system
+means a greener economy.
+
+

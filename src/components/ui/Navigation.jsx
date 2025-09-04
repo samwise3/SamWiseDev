@@ -12,7 +12,11 @@ function Navigation() {
           <li key={route.path}>
             <Link
               to={route.path}
-              className={location.pathname === route.path ? 'active' : ''}
+              className={
+                route.path === '/articles'
+                  ? location.pathname.startsWith('/articles') ? 'active' : ''
+                  : location.pathname === route.path ? 'active' : ''
+              }            
             >
               {route.name}
             </Link>
