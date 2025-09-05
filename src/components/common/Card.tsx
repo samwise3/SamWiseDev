@@ -44,7 +44,7 @@ function Card({
                                 aria-expanded={expanded}
                                 aria-label={expanded ? "Hide details" : "Show details"}
                                 style={{ font: 'inherit'}}
-                            >Expand 
+                            >Expand  
                                 <span
                                     style={{
                                         display: 'inline-block',
@@ -52,7 +52,7 @@ function Card({
                                         transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)'
                                     }}
                                 >
-                                   ▼
+                                    ▼
                                 </span>
                             </button>
                         </>

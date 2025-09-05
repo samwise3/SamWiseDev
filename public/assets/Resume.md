@@ -2,7 +2,7 @@
 
 
 #### (619) 246-3471 | samanthawisebrooks@gmail.com  
-#### LinkedIn: samanthawbrooks | GitHub: samwise3 | samwisebrooks.dev
+#### LinkedIn: [samanthawbrooks](www.linkedin.com/in/samanthawbrooks) | GitHub: [samwise3](https://github.com/samwise3) | [samwisebrooks.dev](https://samwisebrooks.dev/)
 
 ## EDUCATION
 

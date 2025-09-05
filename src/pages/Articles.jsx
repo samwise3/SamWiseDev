@@ -41,11 +41,6 @@ function Articles() {
       <header>
         <Header/>
       </header>
-      <main>
-        <div className="center">
-          <h4>A collection of various articles I've written in op-ed formats.</h4>
-        </div>
-      </main>
       <div className="cards-list">
         {articles.map((article, index) => (
           <Card

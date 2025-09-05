@@ -13,9 +13,6 @@ a {
   color: #333;
   text-decoration: none;
 }
-a:hover {
-  color: #007bff;
-}
 
 /* Common page container */
 .page-container, .home-container {
@@ -28,6 +25,8 @@ a:hover {
 header {
   text-align: center;
   padding: 2rem 0;
+  font-family: 'Courier New', monospace;
+
 }
 
 .profile-container {
@@ -43,15 +42,13 @@ header {
 }
 
 #profile {
-  max-width: 200px;
+  max-width: 120px;
   border-radius: 50%;
 }
 
 /* Navigation */
 .navbar {
-  background-color: #f8f9fa;
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar ul {
@@ -104,13 +101,6 @@ main {
 
 #projects li {
   margin-top: 0.5rem;
-}
-
-/* About Me page */
-.story-map {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Resume page */
@@ -191,7 +181,7 @@ main {
   }
 
   #profile {
-    max-width: 150px;
+    max-width: 80px;
   }
 
   .navbar ul {
@@ -352,6 +342,7 @@ main {
   transition: transform 0.2s, box-shadow 0.2s;
   max-width: 800px;
   width: 100%;
+  font-family: 'Courier New', monospace;
 }
 
 .custom-card:hover {
