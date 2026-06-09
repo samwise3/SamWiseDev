@@ -4,7 +4,7 @@ import Header from '../components/ui/Header';
 import '../styles/styles.css';
 import ReactMarkdown from 'react-markdown';
 
-const resumePath = '/assets/Resume.md'; // Use absolute path
+const resumePath = '/assets/Resume.md'; 
 
 function Resume() {
   const [markdown, setMarkdown] = useState('');
