@@ -28,26 +28,33 @@ const [markdown, setMarkdown] = React.useState<string>('');
     }, [ArticlePageParams.src]);
     
     return (
-        <div className='article-page-content'>
-            <header>
-                <Header/>
-            </header>
-            <h1 className="article-title">{ArticlePageParams.title}</h1>
-            {ArticlePageParams.url && 
-                <Link className="custom-link" to={ArticlePageParams.url} target="_blank" rel="noopener noreferrer">
-                    View Published Article</Link>
-            }
-            <img src={ArticlePageParams.image} alt={ArticlePageParams.title} className="article-page-image"/>
-            <div className='markdown-body'>
-                <ReactMarkdown>
-                    {markdown}
-                </ReactMarkdown>
-            </div>
-            <footer>
-                <Footer />
-            </footer>
+        <div className='page-container'>
+            <Header/>
+            <main className="page-main">
+                <div className="article-header">
+                    <Link className="back-link" to="/articles">← All articles</Link>
+                    <h1 className="article-title">{ArticlePageParams.title}</h1>
+                    {(ArticlePageParams.date || ArticlePageParams.url) &&
+                        <div className="card-meta">
+                            {ArticlePageParams.date && <span className="article-date">{ArticlePageParams.date}</span>}
+                            {ArticlePageParams.url &&
+                                <a href={ArticlePageParams.url} target="_blank" rel="noopener noreferrer">
+                                    View published article ↗</a>
+                            }
+                        </div>
+                    }
+                </div>
+                {ArticlePageParams.image &&
+                    <img src={ArticlePageParams.image} alt={ArticlePageParams.title} className="article-page-image"/>
+                }
+                <div className='markdown-body'>
+                    <ReactMarkdown>
+                        {markdown}
+                    </ReactMarkdown>
+                </div>
+            </main>
+            <Footer />
         </div>
-
     )
 }
 

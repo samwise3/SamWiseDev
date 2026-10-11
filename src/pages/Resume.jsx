@@ -17,16 +17,15 @@ function Resume() {
   }, []);
 
   return (
-    <div>
-      <header>
-        <Header/>
-        <hr />
-      </header>
-      <div className="markdown-body">
-        <ReactMarkdown>
-          {markdown}
-        </ReactMarkdown>
-      </div>
+    <div className="page-container">
+      <Header/>
+      <main className="page-main">
+        <div className="markdown-body resume-body">
+          <ReactMarkdown>
+            {markdown}
+          </ReactMarkdown>
+        </div>
+      </main>
       <Footer />
     </div>
   );

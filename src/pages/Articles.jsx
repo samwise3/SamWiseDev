@@ -2,7 +2,6 @@ import Footer from '../components/ui/Footer';
 import Card from '../components/common/Card';
 import '../styles/styles.css';
 import Header from '../components/ui/Header';
-import { Link } from 'react-router-dom';
 
 export const articles = [
     {
@@ -38,32 +37,34 @@ function Articles() {
 
   return (
     <div className="page-container">
-      <header>
-        <Header/>
-      </header>
-      <div className="cards-list">
-        {articles.map((article, index) => (
-          <Card
-            key={index}
-            title={
-              <Link to={`/articles/${article.slug}`}>
-                {article.title}
-              </Link>
-            }
-            description={
-              <>
-                {article.description}
-                <br />
-                <span className="article-date">{article.date}</span>
-              </>
-            }
-            src={article.url}
-            imgsrc={article.image}
-            alt={article.title}
-          />
-        ))}
-      </div>
-
+      <Header/>
+      <main className="page-main">
+        <div className="page-heading">
+          <p className="page-eyebrow">Writing</p>
+          <h1>Articles</h1>
+          <p>Essays on policy, energy, and economics.</p>
+        </div>
+        <div className="cards-list">
+          {articles.map((article) => (
+            <Card
+              key={article.slug}
+              title={article.title}
+              to={`/articles/${article.slug}`}
+              description={article.description}
+              meta={
+                <>
+                  {article.date && <span className="article-date">{article.date}</span>}
+                  {article.url && (
+                    <a href={article.url} target="_blank" rel="noopener noreferrer">Published version ↗</a>
+                  )}
+                </>
+              }
+              imgsrc={article.image}
+              alt={article.title}
+            />
+          ))}
+        </div>
+      </main>
       <Footer />
     </div>
   );

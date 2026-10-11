@@ -33,27 +33,31 @@ const projects = [
 function Projects() {
 
     return (
-        <>
-        <header>
+        <div className="page-container">
             <Header/>
-        </header>
-        <div className="cards-list">
-            {projects.map((project, index) => (
-                <Card 
-                    key={index} 
-                    title={project.title} 
-                    description={project.description}
-                    src={project.src} 
-                    imgsrc={project.imgsrc} 
-                    alt={project.alt}
-                    tags={project.tags}
-                    longDescription={project.longDescription}
-                />
-            ))}
+            <main className="page-main">
+                <div className="page-heading">
+                    <p className="page-eyebrow">Work</p>
+                    <h1>Projects</h1>
+                    <p>Things I&rsquo;ve built, from hackathons to teaching tools.</p>
+                </div>
+                <div className="cards-list">
+                    {projects.map((project) => (
+                        <Card
+                            key={project.title}
+                            title={project.title}
+                            description={project.description}
+                            src={project.src}
+                            imgsrc={project.imgsrc}
+                            alt={project.alt}
+                            tags={project.tags}
+                            longDescription={project.longDescription}
+                        />
+                    ))}
+                </div>
+            </main>
+            <Footer/>
         </div>
-
-        <Footer/>
-        </>
     )
 }
 
